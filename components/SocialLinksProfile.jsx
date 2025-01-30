@@ -1,10 +1,10 @@
-
+import myImage from "../assets/images/avatar-jessica.png"
 export default function SocialLinksProfile() {
     return (
         <div className="container px-3 mx-auto flex flex-col items-center justify-center h-screen ">
             <div className="w-80 md:w-[450px] px-4 pb-4 md:px-7 md:pb-7 bg-gray-800 rounded-xl flex flex-col items-center my-12">
                 <div className="w-24">
-                    <img src="../assets/images/avatar-jessica.png" alt="avatar" className="rounded-full"/>
+                    <img src={myImage} alt="avatar" className="rounded-full"/>
                 </div>
                 <div className="flex flex-col items-center my-8">
                     <p className="text-xl md:text-3xl font-semibold text-white mb-2">Mahmoud Abdelkarim</p>
